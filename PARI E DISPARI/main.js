@@ -12,6 +12,9 @@ genRandNum(5, 1)
 function genRandNum(maxRange, minRange) {
     let randNum = Math.floor((Math.random(maxRange - minRange) * 5) + 1);
     console.log(randNum);
+}
+
+function pariOdispari() {
     let somma = sceltaNum + randNum;
     console.log(somma);
     if (somma %2 == 1) {
@@ -22,5 +25,3 @@ function genRandNum(maxRange, minRange) {
         console.log('Numero pari!');
     }
 }
-
-
